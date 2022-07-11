@@ -1,0 +1,433 @@
+***Full stack Web developer Notes***
+Udemy Course: Full Stack Web Development with React JS, Angular and NodeJS
+35.5 hours
+2 hours a day: 17.75
+
+Html, CSS, JS
+Editor: Atom
+
+head tag
+content and def related to tag
+
+***Tags***
+1.Basic tags:
+headers from h1 to h6. After h6  size remains same.
+strong, bold
+em,i  - highlight, alertnate voice or mood
+u
+
+2.Img
+img attr - title, height, width, alt
+
+3.Lists
+unordered <ul>
+ordered <ol>
+description <dl> <dt> <dd>
+dl - term in list, dd - dis description
+
+ordered list have numbers and we have option to startt numbering from where i want.
+
+4.Block level-Inline level
+block: h1,h2, ..., p, div,hr
+in-line: img,a,br,span
+
+block always starts on same line
+inline starts on the same line and takes as much content as required
+JSON stands for JavaScript Object Notation and is a standard text-based format used to represent objects in JavaScript
+
+5. Tables
+Creating tables <table>, rows tr, cells td
+headlines for tables th
+You can add links to header
+You can segregate header and body separately.
+You can combine 2 or more col for a row.
+
+6. Forms
+input tag
+email, password, radio, checkbox, date, select(dropdown list)
+Form has action and methods. method- get or post.
+action - info we add gets sent to this address
+
+#####
+CSS
+Selector {prop:value;}
+
+1.Inline CSS for single tag:
+<h1 style="color:red;"></h1>
+
+2.Style tag: Internal access
+<style>
+ h1{
+	color:red;
+ }
+</style>
+
+3. Have html and css differently: External access
+Link tag
+<link rel="stylesheet" href="pathofCSSfile.css">
+#####
+Bootstrap
+
+Search:
+React vs React JS
+
+
+off topic:
+Python Blockchain Tutorial
+
+
+#################################################################
+full stack developer bootcamp india
+Full-Stack Cloud Native Application Developer
+################################################################################################
+Course:Intro to Cloud Computing
+
+Cloud foundations, HTML, CSS, JavaScript, GitHub, Node.js, React, Cloud Native practices, DevOps, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Python programming, Databases, SQL, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.   ----> A LOT!!!   
+
+only Basics or full fledge?
+How long will it take?
+
+projects!!!! on GitHub
+
+Key driver to move to cloud:
+Agility
+Competitiveness
+Flexibility
+
+
+Cloud adoption:
+Flexibility
+Effeciency
+Strategic Value
+
+
+*Key cloud Service providers and their Services:
+IBM Cloud
+Alibama Cloud - Aliyun
+Google Cloud - Google Search and Youtube
+AWS Cloud - IaaS and PaaS
+Microsoft Azure
+Oracle Cloud - SaaS only, largest cloud based data mgt
+Salesforce
+SAP - ERP
+
+*Cloud Adoption
+* Tech with Cloud:
+IOT, AI, BlockChain
+
+
+
+Summary:
+Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis; resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs. 
+
+The origins of cloud computing can be traced back to the mainframes of the 1950s, with virtualization technologies and hypervisors serving as catalysts for the emergence of modern-day cloud computing.
+
+Organizations must consider their business needs, investment viability, and risk capacity in order to create a cloud adoption strategy that delivers desired benefits without causing business disruptions and security, compliance, or performance issues.
+
+Cloud adoption is growing faster than predicted. Driving this technological wave are cloud service providers with a host of services ranging from Infrastructure, Platform, and Software services. Some major Cloud providers of our times include AWS, Alibaba Cloud, Google, IBM, and Microsoft Azure. 
+
+Some case studies that demonstrate the impact businesses have created by adopting cloud:
+American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise 
+UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
+Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
+ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers 
+
+
+Some case studies that demonstrate how the use of emerging technologies on the cloud is creating value for millions around the world:
+The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
+Artificial Intelligence on the cloud being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association
+Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
+The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE 
+
+Module 2: Cloud Service Models
+Pyramid structue: Iaas foundation
+IaaS: manage physical resources, servers and storage
+PaaS: Along with Iaas it provider manages Hypervisors, OS, DB, dev tools and BA
+SaaS: Along with Paas it provider manages application and data
+
+*IaaS:
+compute, network and storage
+they provide VM's to client 
+with hypervisor, os(preinstalled of their own choice)
+
+Provide Physical data centers, compute(also memory), network(virtualization), Storage(object file block storage)
+
+I equate it to provider providing everything to End-user
+
+Raw computing storage provided
+user reponsible for platform and application software
+
+*PaaS:
+host application run times, servers, networks, storage, OS, APIs, middleware databases
+key-> Provider responsible for install and configure and operation
+user responsible for appl code maintenance
+
+Higher level of abstraction
+Provides APIs for simplifying job of developers
+Runtime environments to execute end user code.
+Push and run mechanism for rapid deployment
+also backend services,intergration services, DB systems, app servers (middleware capability)
+
+Use Cases: API, IOT, BA
+AWS elastic beanstalk, ibm cloud paks, azure, apache stratus
+
+*SaaS:
+maintain code as well
+manage application security, performance, availability
+monitor data, manage privileges, compliance,
+Ex: office 365, gmail, salesforce, SAP,
+HR, Finance mgt
+
+Use case
+reduce IT infra of their own, 
+avoiding upgrades, maintenance
+run app with min input
+
+Concern: Data ownership
+Third party maintains
+
+*Public Cloud:
+Doesn't own the server. All maintained by provider 
+
+*Private Cloud:
+
+IBM Docs:
+https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bm
+
+*Virtualization
+Regions, Zones, Servers(hosts, hypervisors, OS), Networks, Storage
+
+* Security in cloud:
+Enterprise connect their on-premise to cloud using vpn as gateways to vp cloud
+
+*Containers
+packaged app code, library and dependencies to anywhere 
+portable, agile devos/development, scalability
+
+With Vm's, you have to have multiple OS instances on top of the single existing one to run your app code.
+These multiple OS instance run are scaling to run for multiple users.
+But with container you don't need to addtional OS on top.
+Modularization is easier if you need addtional appl code to be run like python needed with existing code.
+Its doesn't need to be duplicated on every instance
+
+*Cloud Infra:
+Bare metal servers are single-tenant physical servers that are dedicated to a single customer. 
+
+*Cloud Storage:
+For access to storage you need to connect to compute node
+
+Directed Attached
+-server's OS, fast, local to server, ephemeral(temp)
+
+File Storage
+-NFS, slow
+- best act as common storage
+multiple nodes at a time
+-uses ethernet network
+
+block storage
+-disk speed imp here, IOPS
+-resilent to failure
+Persistence storage exist even after compute node is deleted
+-1 node at a time, no disk storage share betw node
+-high fibre network
+
+Object Storage:
+Accessed via API, cheapest, slowest
+as its object based storage size can be infinite.
+static files
+no IOPS
+Tier based
+
+*Content Delivery Storage:
+distributed system
+-Make website faster
+
+*Hybrid Multi Cloud
+Multicloud is a cloud adoption strategy that embraces a mix of cloud models from different service providers - public, private, and managed, across infrastructure, platform, or software services.
+
+*Serverless Computing
+short stateleess function
+no provision required, auto, use function when required 
+
+Hybrid Multicloud is a cloud adoption strategy that makes it possible for public clouds, private clouds, and on-premises IT to interoperate seamlessly while leveraging the best cloud-based services from different public cloud providers.
+
+Microservices architecture is an approach in which an application is built as a collection of loosely coupled and independently deployable components or services, leading to efficient development, maintenance, and upgradation cycles.
+
+Serverless Computing is an approach to computing that offloads responsibility for common infrastructure management tasks for application runtimes to cloud providers, allowing developers to focus their time and effort on development and testing, and not have to worry about provisioning, maintaining and scaling compute resources
+
+*Cloud Native Applications
+Simply put, a cloud native application is an application developed from the outset to work only in the cloud environment, or an existing app that has been refactored and reconfigured with cloud native principles. 
+Layer of development:
+
+App code
+Runtime
+DataServices
+Schedule
+Infra
+
+*Cloud Security
+Data is at:
+At REST
+In Use
+In Motion
+
+Keys:
+BYOK Bring you own
+KYOK Keep
+
+*Monitoring:
+posture, compliance, threats
+
+devops approach: design, build, manage security
+(sec devops)secure Devops apporach: secure design, secure build, manage security
+
+*identity
+SSL, TSL at motion
+
+
+################################################################################################
+Course: Full Stack
+
+*Front end:
+CSS, SASS and LESS
+
+Extention of CSS
+Syntactically Awesome Style Sheets (var, nested rules, imports)
+Learner SS
+
+JS AngularJS, ReactJs
+VueJs
+
+
+CI/CD: 
+CI-auto builds & test code
+CD- deploys the changes
+
+Build Tools: 
+Source to Binaries for install
+manage dependencies, compile flags
+Webpack, Babel
+
+Packages: app files, instruction for install
+debian package manager, red hat package manager
+
+
+package manager
+nodejs: npm
+java: maven, gradel
+ruby: rubygems
+python: pip,conda
+
+*Backend:
+Backend language-> JS, python 
+JS framework- nodejs & Expressjs
+Py framework-Django  Flask 
+
+*HTML
+W3C
+Web Hypertext Application Technology Working Group (WHATWG)
+
+<!DOCTYPE html>
+This is for browser to know doc is of html type
+
+XHTML/XML ex:
+<?xml encoding="UTF-8">
+tag need to be lower
+
+DOM tree in-memory rep of doc
+
+HTML Scripting
+sandboxed feature to manage iframe "mash-ups"
+web pages that pull data from more than 1 web page
+
+HTML Browser
+The HTML DOM Tree describes how a website is structured
+
+CSS: 
+some styles get passed inherently 
+The Universal Selector is the * in CSS. Literally the asterisk character. It is essentially a type selector that matches any type. 
+
+DOM Tree 
+“Document Object Model” is the data representation of the objects that comprise the structure and content of a document on the web.
+
+XML An “eXtensible Markup Language” Designed to store and transport data allowing users to define their own markup languages, primarily to display documents on the web.
+
+XHTML An “eXtensible Hypertext Markup Language” Similar to HTML but with stricter formatting rules.
+Web Storage APIs APIs that allow data storage in a browser.
+
+Web Workers are JavaScript programs running on a different thread, in parallel to the main thread. It allows you to put long-running and computationally intensive tasks on the background without blocking the UI, making your app more responsive.01-Aug-2020
+
+
+*JavaScript
+It has prototype which you can use to modify methods and var of object.
+In a function it can have another function.
+noscript: for when js is disabled in browser.
+
+
+DOM-HTML
+<div id="div123">
+node name for element: div
+attr name : id
+att value: div123
+
+see devtools
+ 
+with js you can create elements, getele by ids, change inline style
+
+element.style.styleName
+element.setAttribute('style',...)
+
+Window object methods
+window.onload run function after screen load
+
+let myArray = ["Jack","Jill",4,5,true,"John"]
+for (const [idx, value] of Object.entries(myArray)) {
+  console.log(idx," - ",value);
+}
+
+
+############################################################################################Course:Git, Github
+
+*git
+ gitlab, bitbucket
+Distributed version control
+
+ssh protocol: method of secure remote login
+repository:
+fork: copy of repo
+
+commands:
+init - clone existing or create new
+add - to staging
+status - changes 
+commit -
+reset - reset the changes
+log -check logs
+branch - isolated env creation
+checkout -change branches
+merge - put everything backtogether.
+
+*Gitlabs:
+Devops platform to deliver single app.
+Github: online hosting platform for Git repo
+
+################################################################################################
+Questions:
+IaaS vs PaaS vs Saas
+IBM acquired Redhat
+RAID
+How is Geolocation an HTML5 feature instead of JS?
+
+
+Term:
+Middleware=Appl runtime
+
+Learn basics of HTML, CSS and JS from geekforgeeks
+but importantly i don't want to spent my entire life on just that so lets do React or  ReactJs or NodeJs since they are very imp
+
+
+
+
+
+
